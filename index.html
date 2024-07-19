@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+<header class="loginPage">
+    <img class="fa-times" src="/image/close.svg">
+<div class="loginPage__img">
+
+</div>
+<div class="loginPage__form">
+<div class="loginPage__form__body">
+    <p class="loginPage__form__titleP">Личный кабинет</p>
+    <h1 class="loginPage__form__titleH1">O DA BRANDS</h1>
+    <div class="loginPage__form__input_big">
+        <p class="loginPage__form__placeholder" >Введите логин или e-mail</p>
+        <input onkeyup="input_placeholder(0)" class="loginPage__form__input" placeholder="Введите логин или e-mail" type="text">
+    </div>
+    <div class="loginPage__form__input_big">
+        <p class="loginPage__form__placeholder" >Введите пароль</p>
+        <input onkeyup="input_placeholder(1)"   class="loginPage__form__input" placeholder="Введите пароль" type="text">
+        <div  class="loginPage__form__eyes">
+            <i class="fa fa-eye" style="cursor: pointer;" onclick="parol_action(0,1,0)" aria-hidden="true"></i>
+            <i class="fa fa-eye-slash" style="cursor: pointer;"  onclick="parol_action(1,1,0)" aria-hidden="true"></i>
+        </div>
+    </div>
+<div class="loginPage__form__checkbox">
+    <div class="loginPage__form__checkbox__div">
+        <input type="checkbox">
+        <p class="loginPage__form__checkbox__div__p">Запомнить меня</p>
+    </div>
+    <a href="#" class="loginPage__form__checkbox__a">Забыли пароль?</a>
+</div>
+<button class="loginPage__form__button">Войти</button>
+<div class="loginPage__form__line"></div>
+<div class="loginPage__form__ili">или</div>
+<div class="loginPage__form__sets">
+<div class="loginPage__form__set">
+    <img src="/image/logo-apple.svg" alt="">
+</div>
+<div class="loginPage__form__set">
+    <img src="/image/Vector (8).svg" alt="">
+</div>
+<div class="loginPage__form__set">
+    <img src="/image/_Facebook.svg" alt="">
+</div>
+</div>
+<div class="loginPage__form__h4">
+    Первый раз в O DA BRANDS? <a href="#">Зарегистрируйтесь</a>
+</div>
+</div>
+</div>
+</header>
+
+
+
+<script  src="./main.js"></script>
+</body>
+</html>

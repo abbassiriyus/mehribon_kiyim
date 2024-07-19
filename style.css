@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    padding: 0pc;
+    margin: 0px;
+}
+.loginPage{
+    display: grid;
+    grid-template-columns: 1.0328fr 1fr;
+    /* height: 1080px; */
+    position: relative;
+    width: 100%;
+min-height: 100vh;
+    align-items: center;
+}
+.loginPage  .fa-times{
+    position: absolute;
+    top: 20px;
+    right: 22px;
+    color: #1F1F1F;
+    width: 18px;
+    cursor: pointer;
+}
+.loginPage__img{
+width: 100%;
+height: 100%;
+background: url("./image/4dda099fe3d3c0000cf6ccf3d0428dab.jpeg");
+background-size: cover;
+/* background-position: center; */
+background-position: 8% 33%;
+}
+.loginPage__form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* margin-left: 24.4%; */
+    margin: auto;
+    max-width: 500px;justify-content: center;
+    height: 100%;
+}
+.loginPage__form__body{
+    width: 100%;
+    height:567px;
+    max-width:436px ;
+}
+.loginPage__form__titleP{
+    font-family: Istok Web;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.2px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.loginPage__form__titleH1{
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 30.2px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-family: Istok Web;
+    margin-top: 12px;
+margin-bottom: 52px;
+}
+.loginPage__form__placeholder{
+    display: none;
+    padding-left: 20px;
+font-family: Istok Web;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+text-align: left;
+color: #8C8C8C;
+line-height: 10px;
+position: relative;
+top: 5px;
+transition: 1s;
+}
+.loginPage__form__input_big{
+    border: 1px solid #E5EAFF;
+    height: 56px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: auto;
+align-items: center;
+position: relative;
+margin-bottom: 14px;
+}
+.loginPage__form__input{
+    padding-left: 18px;
+font-family: Istok Web;
+font-size: 18px;
+font-weight: 400;
+line-height: 26.1px;
+text-align: left;
+color: #8C8C8C;
+height: 20px;
+border: none;
+background-color: #8c8c8c00;
+outline: none;
+
+}
+.loginPage__form__eyes{
+    position: absolute;
+    right: 17px;
+    top: 14px;
+    bottom: 0px;
+    font-size: 23px;
+color: #8C8C8C;
+background-color: white;
+}
+
+.loginPage__form__eyes  .fa-eye{
+    display: none;
+}
+.loginPage__form__checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+
+.loginPage__form__checkbox__a{
+text-decoration: none;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.1px;
+    text-align: right;
+    color: #8C8C8C;
+    
+}
+.loginPage__form__checkbox__div__p{
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.1px;
+    text-align: left;
+    color: #1F1F1F;
+}
+.loginPage__form__checkbox__div{
+display: flex; gap: 10px;
+align-items: center;
+}
+.loginPage__form__checkbox__div input{
+width: 20px;
+height: 20px;
+}
+.loginPage__form__button{
+    height: 42px;
+    background: #1F1F1F;
+font-family: Istok Web;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+width: 100%;
+border: none;
+}
+.loginPage__form__line{
+    width: 100%;
+    height: 2px;
+    background-color: #8C8C8C;
+    margin: auto;
+    width: 100%;
+    height: 2px;
+    background-color: #8C8C8C;
+    margin: auto;
+    margin-top: 40px;
+}
+.loginPage__form__ili{
+    font-family: Istok Web;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.2px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #8C8C8C;
+    background: white;
+    width: 67px;
+    margin: auto;
+    margin-top: -14px;
+}
+.loginPage__form__sets{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 31px;
+
+}
+.loginPage__form__set{
+width: 48px;
+height: 48px;
+display: flex;
+
+cursor: pointer;
+justify-content: center;
+align-items: center;
+border: 1px solid #E5EAFF;
+border-radius: 1px;
+}
+.loginPage__form__h4{
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.1px;
+    text-align: center;
+    color: #1F1F1F;
+    margin-top: 55px;
+
+}
+.loginPage__form__h4 a{
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 26.1px;
+    text-align: center;
+    color: #5271FF;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+    margin-left: 6px;
+}
+@media(max-width:1024px){
+    .loginPage__img{
+        display: none;
+    }
+    .loginPage{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin: auto;
+        min-height: 770px;
+    }
+
+}
+@media(max-width:640px){
+    .loginPage{
+     min-height: auto;
+        min-height: 617px;
+    } 
+}
