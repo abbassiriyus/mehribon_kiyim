@@ -9,8 +9,22 @@
 </head>
 <body>
     
-<header class="loginPage">
-    <img class="fa-times" src="/image/close.svg">
+
+    <div class="navbar">
+        <div class="navbar__toggle"><img src="/image/segment.svg" alt=""><h1 class="loginPage__form__titleH1">O DA BRANDS</h1></div>
+        <div></div>
+        <div class="navbar_dannix">
+            <img src="/image/search.svg" alt="">
+           <img  onclick="document.querySelector('.loginPage_big').style='display:grid',document.querySelector('.body').style='overflow:hidden'" src="/image/account_circle.svg" alt="">
+           <img src="/image/favorite.svg" alt="">
+            <img src="/image/shopping_bag.svg" alt="">
+        </div>
+    </div>
+    
+
+
+<header class="loginPage loginPage_big">
+    <img style="cursor: pointer;" onclick="document.querySelector('.loginPage_big').style='display:none'" class="fa-times" src="/image/close.svg">
 <div class="loginPage__img">
 
 </div>
@@ -52,12 +66,75 @@
 </div>
 </div>
 <div class="loginPage__form__h4">
-    Первый раз в O DA BRANDS? <a href="/register.html">Зарегистрируйтесь</a>
+    Первый раз в O DA BRANDS? <a onclick="document.querySelector('.registerPage').style='display:grid';document.querySelector('.loginPage_big').style='display:none'">Зарегистрируйтесь</a>
 </div>
 </form>
 </div>
 </header>
+<header class="loginPage registerPage">
+    <img onclick="document.querySelector('.registerPage').style='display:none'" class="fa-times" src="/image/close.svg">
+<div class="loginPage__img">
 
+</div>
+<form class="loginPage__form">
+<div class="loginPage__form__body">
+    <p class="loginPage__form__titleP">Личный кабинет</p>
+    <h1 class="loginPage__form__titleH1">O DA BRANDS</h1>
+    <div class="loginPage__form__input_big">
+        <p class="loginPage__form__placeholder" >Ваше имя</p>
+        <input onkeyup="input_placeholder(2)" class="loginPage__form__input" placeholder="Ваше имя" type="text">
+    </div>
+    <div class="loginPage__form__input_big">
+        <p class="loginPage__form__placeholder" >Введите логин или e-mail</p>
+        <input onkeyup="input_placeholder(3)" class="loginPage__form__input" placeholder="Введите логин или e-mail" type="text">
+    </div>
+    <div class="loginPage__form__input_big">
+        <p class="loginPage__form__placeholder" >Введите ваш номер телефона</p>
+        <input id="phone-input" onkeyup="input_placeholder(4)" class="loginPage__form__input" placeholder="Введите ваш номер телефона" type="text">
+    </div>
+    <div class="loginPage__form__input_big">
+        <p class="loginPage__form__placeholder" >Введите пароль</p>
+        <input onkeyup="input_placeholder(5)"   class="loginPage__form__input" placeholder="Введите пароль" type="text">
+        <div  class="loginPage__form__eyes">
+            <i class="fa fa-eye" style="cursor: pointer;" onclick="parol_action(0,5,1)" aria-hidden="true"></i>
+            <i class="fa fa-eye-slash" style="cursor: pointer;"  onclick="parol_action(1,5,1)" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="loginPage__form__input_big">
+        <p class="loginPage__form__placeholder" >Повторите пароль</p>
+        <input onkeyup="input_placeholder(6)"   class="loginPage__form__input" placeholder="Повторите пароль" type="text">
+        <div  class="loginPage__form__eyes">
+            <i class="fa fa-eye" style="cursor: pointer;" onclick="parol_action(0,6,2)" aria-hidden="true"></i>
+            <i class="fa fa-eye-slash" style="cursor: pointer;"  onclick="parol_action(1,6,2)" aria-hidden="true"></i>
+        </div>
+    </div><div class="loginPage__form__checkbox__div loginPage__form__checkbox__div__1">
+        <input style="margin-top: 10px;" type="checkbox">
+        <p class="loginPage__form__checkbox__div__p" style="color: #8C8C8C">Проходя регистрацию на нашем сайте, вы соглашаетесь с условиями обработки личных данных</p>
+    </div>
+    <div class="loginPage__form__checkbox__div loginPage__form__checkbox__div__1">
+        <input type="checkbox">
+        <p class="loginPage__form__checkbox__div__p" style="color: #8C8C8C">Подписаться на e-mail рассылку</p>
+    </div>
+<button class="loginPage__form__button">Зарегистрироваться</button>
+<div class="loginPage__form__line"></div>
+<div class="loginPage__form__ili">или</div>
+<div class="loginPage__form__sets">
+<div class="loginPage__form__set">
+    <img src="/image/logo-apple.svg" alt="">
+</div>
+<div class="loginPage__form__set">
+    <img src="/image/Vector (8).svg" alt="">
+</div>
+<div class="loginPage__form__set">
+    <img src="/image/_Facebook.svg" alt="">
+</div>
+</div>
+<div class="loginPage__form__h4">
+    Первый раз в O DA BRANDS? <a  onclick="document.querySelector('.registerPage').style='display:none';document.querySelector('.loginPage_big').style='display:grid'">Войти</a>
+</div>
+</div>
+</form>
+</header>
 
 
 <script  src="./main.js"></script>
