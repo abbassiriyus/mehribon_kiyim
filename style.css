@@ -39,8 +39,10 @@ background-position: 8% 33%;
 }
 .loginPage__form__body{
     width: 100%;
-    height:567px;
+    /* height:567px; */
     max-width:436px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .loginPage__form__titleP{
     font-family: Istok Web;
@@ -141,8 +143,11 @@ text-decoration: none;
     color: #1F1F1F;
 }
 .loginPage__form__checkbox__div{
-display: flex; gap: 10px;
-align-items: center;
+    display: grid;
+    gap: 0px;
+    width: 100%;
+    /* align-items: center; */
+    grid-template-columns: 30px 1fr;
 }
 .loginPage__form__checkbox__div input{
 width: 20px;
@@ -159,6 +164,7 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 width: 100%;
 border: none;
+cursor: pointer;
 }
 .loginPage__form__line{
     width: 100%;
@@ -223,6 +229,10 @@ border-radius: 1px;
     padding-bottom: 2px;
     border-bottom: 1px solid;
     margin-left: 6px;
+}
+.loginPage__form__checkbox__div__1{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 @media(max-width:1024px){
     .loginPage__img{
