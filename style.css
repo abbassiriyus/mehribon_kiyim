@@ -323,3 +323,25 @@ border-radius: 1px;
         /* height: 617px; */
     } 
 }
+/* 
+.big-border{
+    border: 1px solid red;
+} */
+.correct_bor{
+    color: red;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-family: Istok Web;
+    font-size: 15px;
+}
+/* .big2_border{
+    border: 1px solid red;
+
+} */
+.correct_bor1{
+    color: gray;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-family: Istok Web;
+    font-size: 15px;
+}
